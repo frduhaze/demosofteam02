@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: demosofteam02
+  host: demosofteam02
+  disk_quota: 1024M
+  services:
+  - demosofteam01-cloudantNoSQLDB
+  - Auto-Scaling-cx
